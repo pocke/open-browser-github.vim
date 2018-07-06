@@ -6,7 +6,7 @@ let s:save_cpo = &cpo
 set cpo&vim
 " }}}
 
-let s:V = vital#of('open_browser_github')
+let s:V = vital#open_browser_github#new()
 let s:Filepath = s:V.import('System.Filepath')
 let s:List = s:V.import('Data.List')
 unlet s:V
