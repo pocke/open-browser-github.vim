@@ -9,6 +9,7 @@ set cpo&vim
 let s:V = vital#open_browser_github#new()
 let s:Filepath = s:V.import('System.Filepath')
 let s:List = s:V.import('Data.List')
+let s:HTTP = s:V.import('Web.HTTP')
 unlet s:V
 
 
